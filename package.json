@@ -1,0 +1,29 @@
+{
+  "name": "nvweb",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-autoprefixer": "^3.0.3",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "description": "Base project folder for a SilverStripe ([http://silverstripe.org](http://silverstripe.org)) installation. Requires additional modules to function:",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "console.log('hello,world')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbrown40/nvweb.git"
+  },
+  "keywords": [
+    "nvweb"
+  ],
+  "author": "jbrown40",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbrown40/nvweb/issues"
+  },
+  "homepage": "https://github.com/jbrown40/nvweb#readme"
+}
