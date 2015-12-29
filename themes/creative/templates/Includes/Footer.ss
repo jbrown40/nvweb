@@ -4,17 +4,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
+                        <% loop $Menu(1) %>
+                        <li><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>
+                    <% end_loop %>
                     </ul>
                     <p class="copyright text-muted small">Copyright &copy; NoteVote 2015. All Rights Reserved</p>
                 </div>
