@@ -17,15 +17,21 @@ body {
 hr {
     max-width: 50px;
     border-color: #2F5DF0;
+
+    /*nv blue*/
     border-width: 3px;
 }
 
 hr.light {
     border-color: #fff;
+
+    /*white*/
 }
 
 a {
     color: #e0e0e0;
+
+    /*light grey/white*/
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
