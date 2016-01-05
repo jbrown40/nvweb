@@ -206,8 +206,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #222;
-
-    /*background-image: url(../img/logobackground.png);*/
+    background-image: url(../img/background.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
