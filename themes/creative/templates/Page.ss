@@ -28,7 +28,7 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>NoteVote</h1>
+                <!--<h1>NoteVote</h1>-->
                 $Content
                 $Form
             </div>

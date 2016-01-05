@@ -11,7 +11,7 @@
                     </div>        
                 </div>
                 
-                <div class="list-inline banner-social-buttons">
+                <!--<div class="list-inline banner-social-buttons">
                     <ul>
                         <li>
                             <a href="#"><img src="$ThemeDir/img/socicon/twitter.png"></a>
@@ -24,7 +24,7 @@
                         </li>
                     </ul>
 
-                </div>
+                </div>-->
 
             </div>
         </div><!-- end .container -->
