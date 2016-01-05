@@ -29,7 +29,7 @@ hr.light {
 }
 
 a {
-    color: #e0e0e0;
+    color: #2F5DF0;
 
     /*light grey/white*/
     -webkit-transition: all .35s;
@@ -146,12 +146,12 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: #222;
+        color: #2F5DF0;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #222;
+        color: #grey;
 
         /*black*/
     }
@@ -163,7 +163,7 @@ aside {
 
     .navbar-default .nav > li > a:hover,
     .navbar-default .nav > li > a:focus:hover {
-        color: #222;
+        color: #grey;
 
         /*black*/
     }
@@ -189,7 +189,7 @@ aside {
 
     .navbar-default.affix .nav > li > a,
     .navbar-default.affix .nav > li > a:focus {
-        color: e0e0e0;
+        color: #e0e0e0;
     }
 
     .navbar-default.affix .nav > li > a:hover,
@@ -205,8 +205,9 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
-    background-image: url(../img/header.jpg);
+    color: #222;
+
+    /*background-image: url(../img/logobackground.png);*/
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -623,13 +624,15 @@ body {
 
 .banner-social-buttons {
     float: right;
-    margin-top: 0;
+    width: 50%;
+    list-style: none;
 }
 
 @media (max-width: 1199px) {
     ul.banner-social-buttons {
         float: left;
-        margin-top: 15px;
+        margin-top: 0;
+        list-style: none;
     }
 }
 
@@ -660,4 +663,15 @@ footer {
 
 p.copyright {
     margin: 0px 0 0;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.logo {
+    padding-left: 0px;
+    padding-bottom: 20px;
 }
