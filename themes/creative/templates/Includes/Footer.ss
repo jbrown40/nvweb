@@ -31,7 +31,7 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="large-12 columns" >
-                <hr class="bar">
+                <!--<hr class="bar">-->
                 <ul class="list-inline">
                         <% loop $Menu(1) %>
                             <li><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>
