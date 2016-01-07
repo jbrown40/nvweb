@@ -4,8 +4,21 @@ class Page extends SiteTree {
 	private static $db = array(
 	);
 
+
 	private static $has_one = array(
+		'CoverImage' => 'Image',
+
 	);
+
+ 	 public function getCMSFields() {
+    	$fields = parent::getCMSFields();
+
+    		$fields->addFieldToTab('Root.Main', new UploadField('CoverImage', 'Cover Image'), 'Content');
+
+
+    	return $fields;
+  	}
+
 
 }
 class Page_Controller extends ContentController {

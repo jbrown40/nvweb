@@ -9,7 +9,7 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                    $Top
+                    <p>$InformationOne</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="$TopImage" alt="">
@@ -31,7 +31,7 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    $Middle
+                    <p>$InformationTwo</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="$MiddleImage" alt="">
@@ -53,7 +53,7 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    $Bottom
+                    <p>$InformationThree</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="$BottomImage" alt="">
