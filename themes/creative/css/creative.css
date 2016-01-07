@@ -15,7 +15,7 @@ body {
 }
 
 hr {
-    max-width: 50px;
+    max-width: 5%;
     border-color: #2F5DF0;
 
     /*nv blue*/
@@ -29,7 +29,7 @@ hr.light {
 }
 
 a {
-    color: #e0e0e0;
+    color: #2F5DF0;
 
     /*light grey/white*/
     -webkit-transition: all .35s;
@@ -97,7 +97,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #grey;
+    color: #fff;
 
     /*nv blue*/
 }
@@ -146,24 +146,24 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: #222;
+        color: #fff;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #222;
+        color: #2F5DF0;
 
         /*black*/
     }
 
     .navbar-default .nav > li > a,
     .navbar-default .nav > li > a:focus {
-        color: #222;
+        color: #fff;
     }
 
     .navbar-default .nav > li > a:hover,
     .navbar-default .nav > li > a:focus:hover {
-        color: #222;
+        color: #2F5DF0;
 
         /*black*/
     }
@@ -177,24 +177,24 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: e0e0e0;
+        color: #e0e0e0;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #e0e0e0;
+        color: #8FD028;
 
         /*light grey*/
     }
 
     .navbar-default.affix .nav > li > a,
     .navbar-default.affix .nav > li > a:focus {
-        color: e0e0e0;
+        color: #e0e0e0;
     }
 
     .navbar-default.affix .nav > li > a:hover,
     .navbar-default.affix .nav > li > a:focus:hover {
-        color: #e0e0e0;
+        color: #8FD028;
 
         /*light grey*/
     }
@@ -205,8 +205,8 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
-    background-image: url(../img/header.jpg);
+    color: #222;
+    background-image: url(../img/background.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -236,7 +236,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: e0e0e;
+    color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -623,13 +623,14 @@ body {
 
 .banner-social-buttons {
     float: right;
-    margin-top: 0;
+    width: 50%;
 }
 
 @media (max-width: 1199px) {
     ul.banner-social-buttons {
         float: left;
-        margin-top: 15px;
+        margin-top: 0;
+        list-style: none;
     }
 }
 
@@ -660,4 +661,16 @@ footer {
 
 p.copyright {
     margin: 0px 0 0;
+    color: #fff;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.logo {
+    padding-left: 0px;
+    padding-bottom: 20px;
 }

@@ -28,7 +28,7 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>NoteVote</h1>
+                <!--<h1>NoteVote</h1>-->
                 $Content
                 $Form
             </div>
@@ -36,7 +36,7 @@
     </header>
 
     $Layout
-    <a  name="contact"></a>
+    <!--<a  name="contact"></a>
     <div class="banner">
 
         <div class="container">
@@ -51,7 +51,7 @@
         </div>
         <!-- /.container -->
 
-    </div>
+    <!--</div>
     <!-- /.banner -->
 
     <% include Footer %>
