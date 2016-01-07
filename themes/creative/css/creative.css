@@ -146,7 +146,7 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: #222;
+        color: #fff;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -158,7 +158,7 @@ aside {
 
     .navbar-default .nav > li > a,
     .navbar-default .nav > li > a:focus {
-        color: #222;
+        color: #fff;
     }
 
     .navbar-default .nav > li > a:hover,
@@ -236,7 +236,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: e0e0e;
+    color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -661,6 +661,7 @@ footer {
 
 p.copyright {
     margin: 0px 0 0;
+    color: #fff;
 }
 
 .list-inline {
