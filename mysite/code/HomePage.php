@@ -23,14 +23,14 @@ class HomePage extends Page{
     	$fields = parent::getCMSFields();
 
 
-			$fields->addFieldToTab('Root.Main', TextareaField::create('InformationOne'), 'Content');   
-			$fields->addFieldToTab('Root.Main', new UploadField('ImageOne', 'Image'), 'Content');
+			$fields->addFieldToTab('Root.Features', TextareaField::create('InformationOne'), 'Content');   
+			$fields->addFieldToTab('Root.Features', new UploadField('ImageOne', 'Image'), 'Content');
 
-    		$fields->addFieldToTab('Root.Main', TextareaField::create('InformationTwo'), 'Content');
- 			$fields->addFieldToTab('Root.Main', new UploadField('ImageTwo', 'Image'), 'Content');
+    		$fields->addFieldToTab('Root.Features', TextareaField::create('InformationTwo'), 'Content');
+ 			$fields->addFieldToTab('Root.Features', new UploadField('ImageTwo', 'Image'), 'Content');
 
-    		$fields->addFieldToTab('Root.Main', TextareaField::create('InformationThree'), 'Content');
-			$fields->addFieldToTab('Root.Main', new UploadField('ImageThree', 'Image'), 'Content');
+    		$fields->addFieldToTab('Root.Features', TextareaField::create('InformationThree'), 'Content');
+			$fields->addFieldToTab('Root.Features', new UploadField('ImageThree', 'Image'), 'Content');
 
 
     	return $fields;
