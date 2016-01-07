@@ -17,11 +17,11 @@ class ContactPage extends Page {
 	    'GitHub'        => 'Text',
 	    'LinkedIn'        => 'Text',
 
-
 	);
 
 
  	 public function getCMSFields() {
+
     	$fields = parent::getCMSFields();
 
 		$fields->addFieldToTab('Root.Contact', new HeaderField('Contact Information'));
@@ -45,13 +45,14 @@ class ContactPage extends Page {
 		$fields->addFieldToTab('Root.Social', new TextField('LinkedIn'));
 
 
-
     	return $fields;
   	}
-
-
 }
+
 
 class ContactPage_Controller extends Page_Controller {
 
 }
+
+
+
