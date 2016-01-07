@@ -12,12 +12,15 @@
                 </div>
                 
                         <div class="social-buttons">
+                            <p class="small-caps"> Connect to NoteVote:</p>
+
                             <a href="#"><img src="$ThemeDir/img/socicon/twitter.png"></a>
                        
                             <a href="#"><img src="$ThemeDir/img/socicon/github.png"></a>
                        
                             <a href="#"><img src="$ThemeDir/img/socicon/facebook.png"></a>
                         </div>
+
 
 
             </div>
