@@ -11,20 +11,14 @@
                     </div>        
                 </div>
                 
-                <!--<div class="list-inline banner-social-buttons">
-                    <ul>
-                        <li>
+                        <div class="social-buttons">
                             <a href="#"><img src="$ThemeDir/img/socicon/twitter.png"></a>
-                        </li>
-                        <li>
+                       
                             <a href="#"><img src="$ThemeDir/img/socicon/github.png"></a>
-                        </li>
-                        <li>
+                       
                             <a href="#"><img src="$ThemeDir/img/socicon/facebook.png"></a>
-                        </li>
-                    </ul>
+                        </div>
 
-                </div>-->
 
             </div>
         </div><!-- end .container -->
@@ -43,6 +37,8 @@
             </div>  
         </div>
     </div>
+
+                
 
         <!-- /.container -->
     </footer>
