@@ -11,7 +11,6 @@
 <body id="page-top">
 
 
-    <% include TopBar %>
 
     <header>
         <div class="header-content">
