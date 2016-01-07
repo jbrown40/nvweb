@@ -11,20 +11,17 @@
                     </div>        
                 </div>
                 
-                <!--<div class="list-inline banner-social-buttons">
-                    <ul>
-                        <li>
-                            <a href="#"><img src="$ThemeDir/img/socicon/twitter.png"></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="$ThemeDir/img/socicon/github.png"></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="$ThemeDir/img/socicon/facebook.png"></a>
-                        </li>
-                    </ul>
+                        <div class="social-buttons">
+                            <h4> Connect to NoteVote:</h4>
 
-                </div>-->
+                            <a href="#"><img src="$ThemeDir/img/socicon/twitter.png"></a>
+                       
+                            <a href="#"><img src="$ThemeDir/img/socicon/github.png"></a>
+                       
+                            <a href="#"><img src="$ThemeDir/img/socicon/facebook.png"></a>
+                        </div>
+
+
 
             </div>
         </div><!-- end .container -->
@@ -43,6 +40,8 @@
             </div>  
         </div>
     </div>
+
+                
 
         <!-- /.container -->
     </footer>

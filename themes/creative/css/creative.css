@@ -645,11 +645,18 @@ body {
         display: block;
         margin-bottom: 20px;
         padding: 0;
+        list-style: none;
     }
 
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+}
+
+.social-buttons {
+    float: right;
+    padding-top: 10px;
+    color: white;
 }
 
 footer {
@@ -660,6 +667,7 @@ footer {
 }
 
 p.copyright {
+    padding-bottom: 10px;
     margin: 0px 0 0;
     color: #fff;
 }
@@ -673,4 +681,5 @@ p.copyright {
 .logo {
     padding-left: 0px;
     padding-bottom: 20px;
+    float: left;
 }
