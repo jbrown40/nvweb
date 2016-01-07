@@ -12,7 +12,7 @@
                 </div>
                 
                         <div class="social-buttons">
-                            <p class="small-caps"> Connect to NoteVote:</p>
+                            <h4> Connect to NoteVote:</h4>
 
                             <a href="#"><img src="$ThemeDir/img/socicon/twitter.png"></a>
                        
