@@ -25,16 +25,6 @@
 
     <% include TopBar %>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <!--<h1>NoteVote</h1>-->
-                $Content
-                $Form
-            </div>
-        </div>
-    </header>
-
     $Layout
     <!--<a  name="contact"></a>
     <div class="banner">

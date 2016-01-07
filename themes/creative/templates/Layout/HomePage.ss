@@ -1,4 +1,13 @@
   <!-- Page Content -->
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>$Title</h1>
+                $Content
+                $Form
+            </div>
+        </div>
+    </header>
 
     <a  name="services"></a>
     <div class="content-section-a">
@@ -12,7 +21,7 @@
                     <p>$InformationOne</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="$TopImage" alt="">
+                    <img class="img-responsive" src="$ThemeDir/img/iphone6/NoteVote2-02.png" alt="">
                 </div>
             </div>
 
@@ -34,7 +43,7 @@
                     <p>$InformationTwo</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="$MiddleImage" alt="">
+                    <img class="img-responsive" src="$ThemeDir/img/iphone6/NoteVote7-07.png" alt="">
                 </div>
             </div>
 
@@ -56,7 +65,7 @@
                     <p>$InformationThree</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="$BottomImage" alt="">
+                    <img class="img-responsive" src="$ThemeDir/img/iphone6/NoteVote5-05.png" alt="">
                 </div>
             </div>
 
