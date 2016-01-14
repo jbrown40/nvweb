@@ -15,7 +15,7 @@
         <div class="header-content">
             <div class="header-content-inner">
                 <h1>$Title</h1>
-	                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	                <form id="contact_form" action="MAILTO:$Email" method="POST" enctype="multipart/form-data">
 						<div class="row">
 							<label for="name">Your name:</label><br />
 							<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
