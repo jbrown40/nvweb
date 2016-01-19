@@ -44,6 +44,14 @@ a:focus {
     /*nv green*/
 }
 
+.contact-label {
+    color: white;
+}
+
+.contact-form {
+    color: black;
+}
+
 h1,
 h2,
 h3,
@@ -660,7 +668,7 @@ body {
 }
 
 footer {
-    padding: 10px;
+    padding-top: 10px;
     background-color: #222;
 
     /*black*/

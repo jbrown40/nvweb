@@ -15,17 +15,17 @@
         <div class="header-content">
             <div class="header-content-inner">
                 <h1>$Title</h1>
-	                <form id="contact_form" action="MAILTO:$Email" method="POST" enctype="multipart/form-data">
+	                <form class="contact-form" id="contact_form" action="mailto:$Email" method="POST" enctype="multipart/form-data">
 						<div class="row">
-							<label for="name">Your name:</label><br />
+							<label class="contact-label" for="name">Your name:</label><br />
 							<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
 						</div>
 						<div class="row">
-							<label for="email">Your email:</label><br />
+							<label for="email" class="contact-label">Your email:</label><br />
 							<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
 						</div>
 						<div class="row">
-							<label for="message">Your message:</label><br />
+							<label for="message" class="contact-label">Your message:</label><br />
 							<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
 						</div>
 						<input id="submit_button" type="submit" value="Send email" />
