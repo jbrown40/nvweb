@@ -26,6 +26,7 @@
     <% include TopBar %>
 
     $Layout
+    $Form
     <!--<a  name="contact"></a>
     <div class="banner">
 
