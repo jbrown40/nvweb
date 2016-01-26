@@ -217,6 +217,7 @@ header {
     text-align: center;
     color: #f5f7f9;
     background-image: url(../img/background.jpg);
+    opacity: 0.8;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -696,4 +697,9 @@ p.copyright {
     padding-left: 0px;
     padding-bottom: 20px;
     float: left;
+}
+
+.logo-top{
+    width:121px;
+    height: 29px;
 }
