@@ -105,7 +105,9 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #fff;
+    color: #f5f7f9;
+    text-shadow: 1px 1px #a3adb8;
+
 
     /*nv blue*/
 }
@@ -122,7 +124,7 @@ aside {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
-    color: #fff;
+    color: #f5f7f9;
 
     /*dark grey*/
 }
@@ -213,7 +215,7 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
+    color: #f5f7f9;
     background-image: url(../img/background.jpg);
     background-position: center;
     -webkit-background-size: cover;
@@ -234,6 +236,9 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
+    color: #f5f7f9;
+    text-shadow: 1px 1px #a3adb8;
+
 }
 
 header .header-content .header-content-inner hr {
@@ -244,7 +249,8 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: #fff;
+    color: #f5f7f9;
+    text-shadow: 1px 1px #a3adb8;
 }
 
 @media (min-width: 768px) {
@@ -308,7 +314,7 @@ header .header-content .header-content-inner p {
     width: 100%;
     height: 100%;
     text-align: center;
-    color: #fff;
+    color: #f5f7f9;
 
     /*white*/
     opacity: 0;
@@ -361,7 +367,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #2F5DF0;
+    color: #f5f7f9;
 
     /*nv blue*/
 }
@@ -372,13 +378,13 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
-    border-color: #fff;
+    border-color: #f5f7f9;
 
     /*white*/
     color: #222;
 
     /*black*/
-    background-color: #fff;
+    background-color: #f5f7f9;
 
     /*white*/
     -webkit-transition: all .35s;
@@ -427,16 +433,16 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-    border-color: #fff;
+    border-color: #f5f7f9;
 
     /*white*/
-    background-color: #fff;
+    background-color: #f5f7f9;
 
     /*white*/
 }
 
 .btn-default .badge {
-    color: #fff;
+    color: #f5f7f9;
 
     /*white*/
     background-color: #222;
@@ -448,7 +454,7 @@ fieldset[disabled] .btn-default.active {
     border-color: #2F5DF0;
 
     /*nv blue*/
-    color: #fff;
+    color: #f5f7f9;
 
     /*white*/
     background-color: #2F5DF0;
@@ -468,7 +474,7 @@ fieldset[disabled] .btn-default.active {
     border-color: #8FD028;
 
     /*nv green*/
-    color: #fff;
+    color: #f5f7f9;
 
     /*white*/
     background-color: #8FD028;
@@ -512,7 +518,7 @@ fieldset[disabled] .btn-primary.active {
     color: #2F5DF0;
 
     /*nv blue*/
-    background-color: #fff;
+    background-color: #f5f7f9;
 
     /*white*/
 }
@@ -531,7 +537,7 @@ fieldset[disabled] .btn-primary.active {
 
 ::-moz-selection {
     text-shadow: none;
-    color: #fff;
+    color: #f5f7f9;
 
     /*white*/
     background: #222;
@@ -550,14 +556,14 @@ fieldset[disabled] .btn-primary.active {
 }
 
 img::selection {
-    color: #fff;
+    color: #f5f7f9;
 
     /*white*/
     background: 0 0;
 }
 
 img::-moz-selection {
-    color: #fff;
+    color: #f5f7f9;
 
     /*white*/
     background: 0 0;
@@ -578,7 +584,7 @@ body {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #fff;
+    background-color: #f8f8f8;
 
     /*white*/
 
@@ -593,7 +599,7 @@ body {
     border-bottom: 1px solid #e7e7e7;
 
     /*light grey/white*/
-    background-color: #fff;
+    background-color: #e7e7e7;
 
     /*white*/
 }
@@ -677,7 +683,7 @@ footer {
 p.copyright {
     padding-bottom: 10px;
     margin: 0px 0 0;
-    color: #fff;
+    color: #f5f7f9;
 }
 
 .list-inline {
