@@ -17,7 +17,7 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
+                    <h2 class="section-heading">$HeaderOne</h2>
                     <p>$InformationOne</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -39,7 +39,7 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
+                    <h2 class="section-heading">$HeaderTwo</h2>
                     <p>$InformationTwo</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
@@ -61,7 +61,7 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
+                    <h2 class="section-heading">$HeaderThree</h2>
                     <p>$InformationThree</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
