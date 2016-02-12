@@ -168,7 +168,7 @@ aside {
 
     .navbar-default .nav > li > a,
     .navbar-default .nav > li > a:focus {
-        color:  #666666;
+        color:  #8FD028;
     }
 
     .navbar-default .nav > li > a:hover,
@@ -237,7 +237,7 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
-    color: #222;
+    color: #F4F4F4;
     text-shadow: 1px 1px #a3adb8;
 
 }
@@ -250,7 +250,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: #222;
+    color: #F4F4F4;
     text-shadow: 1px 1px #a3adb8;
 }
 
@@ -585,7 +585,7 @@ body {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #e7e7e7;
+    background-color: #C1C1C1;
 
     /*white*/
 
@@ -600,7 +600,7 @@ body {
     border-bottom: 1px solid #e7e7e7;
 
     /*light grey/white*/
-    background-color: #f8f8f8;
+    background-color: #F4F4F4;
 
     /*white*/
 }
