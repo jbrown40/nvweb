@@ -21,7 +21,7 @@
                     <p>$InformationOne</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="$ThemeDir/img/iphone6/NoteVote2-02.png" alt="">
+                    <img class="img-responsive" src="$ThemeDir/img/mockup(1)/NoteVote7-07_iphone5c_green_angle1.png" alt="">
                 </div>
             </div>
 
@@ -43,7 +43,7 @@
                     <p>$InformationTwo</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="$ThemeDir/img/iphone6/NoteVote7-07.png" alt="">
+                    <img class="img-responsive" src="$ThemeDir/img/mockup/NoteVote5-05_iphone6_gold_side1.png" alt="">
                 </div>
             </div>
 
@@ -53,7 +53,7 @@
     </div>
     <!-- /.content-section-b -->
 
-    <div class="content-section-a">
+    <div class="content-section-c">
 
         <div class="container">
 
