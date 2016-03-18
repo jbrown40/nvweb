@@ -15,13 +15,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
+                    <!--<hr class="section-heading-spacer">-->
                     <div class="clearfix"></div>
                     <h2 class="section-heading">$HeaderOne</h2>
                     <p>$InformationOne</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="$ThemeDir/img/mockup(1)/NoteVote7-07_iphone5c_green_angle1.png" alt="">
+                    <img class="img-responsive" src="$ThemeDir/img/mockup/NoteVote5-05_iphone6_gold_side1.png" alt="">
+                </div>
                 </div>
             </div>
 
@@ -37,13 +38,13 @@
 
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
+                    <!--<hr class="section-heading-spacer">-->
                     <div class="clearfix"></div>
                     <h2 class="section-heading">$HeaderTwo</h2>
                     <p>$InformationTwo</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="$ThemeDir/img/mockup/NoteVote5-05_iphone6_gold_side1.png" alt="">
+                    <img class="img-responsive" src="$ThemeDir/img/mockup/NoteVote8-08_iphone6plus_spacegrey_portrait.png" alt="">
                 </div>
             </div>
 
@@ -59,13 +60,13 @@
 
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
+                    <!--<hr class="section-heading-spacer">-->
                     <div class="clearfix"></div>
                     <h2 class="section-heading">$HeaderThree</h2>
                     <p>$InformationThree</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="$ThemeDir/img/iphone6/NoteVote5-05.png" alt="">
+                    <img class="img-responsive" src="$ThemeDir/img/mockup/NoteVote5-05_iphone6_gold_side2.png" alt="">
                 </div>
             </div>
 

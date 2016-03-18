@@ -216,9 +216,9 @@ header {
     min-height: auto;
     text-align: center;
     color: #f5f7f9;
-    background-image: url(../img/background.jpg);
+    /*background-image: url(../img/background.jpg);
     opacity: 0.8;
-    background-position: center;
+    background-position: center;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -609,6 +609,7 @@ body {
 .content-section-c {
     padding: 50px 0;
     background-color: #FCFCFC;
+    
 
     /*white*/
 
@@ -617,15 +618,16 @@ body {
 
 .section-heading {
     margin-bottom: 30px;
+    text-align: center;
 }
 
-.section-heading-spacer {
+/*.section-heading-spacer {
     float: left;
     width: 200px;
     border-top: 3px solid #e7e7e7;
 
     /*light grey/white*/
-}
+/*}*/
 
 .banner {
     padding: 100px 0;
