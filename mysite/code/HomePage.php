@@ -16,27 +16,17 @@ class HomePage extends Page{
 
 	);
 
-	private static $has_one = array(
-		'ImageOne' => 'Image',
-		'ImageTwo' => 'Image',
-		'ImageThree' => 'Image',
-
-	);
-
  	 public function getCMSFields() {
     	$fields = parent::getCMSFields();
 
 			$fields->addFieldToTab('Root.Media', TextField::create('HeaderOne'));   
 			$fields->addFieldToTab('Root.Media', TextareaField::create('InformationOne'));
-			$fields->addFieldToTab('Root.Media', new UploadField('ImageOne'));
   			
   			$fields->addFieldToTab('Root.Media', TextField::create('HeaderTwo'));
     		$fields->addFieldToTab('Root.Media', TextareaField::create('InformationTwo'));
- 			$fields->addFieldToTab('Root.Media', new UploadField('ImageTwo'));
 
     		$fields->addFieldToTab('Root.Media', TextField::create('HeaderThree'));   
     		$fields->addFieldToTab('Root.Media', TextareaField::create('InformationThree'));
-			$fields->addFieldToTab('Root.Media', new UploadField('ImageThree'));
 
 
     	return $fields;
