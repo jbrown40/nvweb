@@ -5,8 +5,5 @@
                 $Content
                 $Form
             </div>
-             $StaffPictureOne
-             $StaffPictureTwo
-             $StaffPictureThree
         </div>
 </header>

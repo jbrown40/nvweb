@@ -216,9 +216,9 @@ header {
     min-height: auto;
     text-align: center;
     color: #f5f7f9;
-    /*background-image: url(../img/background.jpg);
+    background-image: url(../img/nvbackground.jpg);
     opacity: 0.8;
-    background-position: center;*/
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
