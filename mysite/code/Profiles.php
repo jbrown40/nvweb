@@ -5,7 +5,7 @@ class Profile extends DataObject {
 	private static $db = array(
 		'Name' => 'Text',
 		'Title'  => 'Text',
-		'Content' => 'HTMLText',
+		'Content' => 'Text',
 	);
 
 	private static $has_one = array(
