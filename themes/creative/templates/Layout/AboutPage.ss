@@ -5,8 +5,13 @@
                 $Content
                 $Form
             </div>
-             $StaffPictureOne
-             $StaffPictureTwo
-             $StaffPictureThree
+            
+                    <% loop $Profiles %>
+                        <img src="$ProfilePicture" class="img-circle" alt="">
+                        <div>$Name</div>
+                        <div>$Title</div>
+                        <div>$Content</div>
+                    <% end_loop %>
+          
         </div>
 </header>
