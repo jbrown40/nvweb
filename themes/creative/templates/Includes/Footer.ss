@@ -16,7 +16,7 @@
 
                             <a href="#" class="soc-icon"><img src="$ThemeDir/img/socicon/twitter.png"></a>
                        
-                            <a href="#" class="soc-icon"><img src="$ThemeDir/img/socicon/github.png"></a>
+                            <a href="https://github.com/NoteVote/NoteVote" class="soc-icon"><img src="$ThemeDir/img/socicon/github.png"></a>
                        
                             <a href="#" class="soc-icon"><img src="$ThemeDir/img/socicon/facebook.png"></a>
                         </div>
