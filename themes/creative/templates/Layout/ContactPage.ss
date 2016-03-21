@@ -26,8 +26,8 @@
 							<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
 						</div>
 						<div class="row">
-							<label for="message" style="color: black" class="contact-label">Your message:</label>
-							<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+							<label for="message" style="color: black" class="contact-label">Message:</label>
+							<textarea id="message" class="input" name="message" rows="9" cols="29"></textarea><br />
 						</div>
 						<input id="submit_button" type="submit" value="Send email" />
 					</form>	
