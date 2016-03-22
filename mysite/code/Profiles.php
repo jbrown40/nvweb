@@ -3,8 +3,8 @@
 class Profile extends DataObject {
 
 	private static $db = array(
-		'Name' => 'Text',
-		'Title'  => 'Text',
+		'Name' => 'Varchar(225)',
+		'Title'  => 'Varchar(225)',
 		'Content' => 'Text',
 	);
 
@@ -14,8 +14,7 @@ class Profile extends DataObject {
 	);
 
 	private static $summary_fields = array(
-		'Title',
-		'Content',
+		'Name',
 	);
 
 

@@ -14,11 +14,11 @@
                         <div class="social-buttons">
                             <h4> Connect to NoteVote:</h4>
 
-                            <a href="twitter.com" class="soc-icon"><img src="$ThemeDir/img/socicon/twitter.png"></a>
+                            <a href="https://twitter.com/notevoteapp" class="soc-icon"><img src="$ThemeDir/img/socicon/twitter.png"></a>
                        
-                            <a href="instagram.com" style="width: 10px; height: 10px" class="soc-icon"><img src="$ThemeDir/img/socicon/instagram.png"></a>
+                            <a href="instagram.com" class="soc-icon"><img src="$ThemeDir/img/socicon/github.png"></a>
                        
-                            <a href="facebook.com" class="soc-icon"><img src="$ThemeDir/img/socicon/facebook.png"></a>
+                            <a href="https://www.facebook.com/NoteVoteApp/" class="soc-icon"><img src="$ThemeDir/img/socicon/facebook.png"></a>
                         </div>
 
 

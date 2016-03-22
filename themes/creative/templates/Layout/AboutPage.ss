@@ -6,12 +6,18 @@
                 $Form
             </div>
             
-                    <% loop $Profiles %>
-                        <img src="$ProfilePicture" class="img-circle" alt="">
+            <div style="width: 200%;">
+                
+                <% loop $Profiles %>
+                    <div style="width: 50%;">
+                        <!--put image in div and set background to image-->
                         <div>$Name</div>
                         <div>$Title</div>
                         <div>$Content</div>
-                    <% end_loop %>
-          
+                    </div>
+                <% end_loop %>
+                
+                    <br style="clear: left;" />
+            </div>
         </div>
 </header>
