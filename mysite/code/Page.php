@@ -55,6 +55,10 @@ class Page_Controller extends ContentController {
 			Requirements::css($this->ThemeDir()."/css/animate.min.css");
 
 			Requirements::css($this->ThemeDir()."/css/creative.css");
+			Requirements::css($this->ThemeDir()."/css/AboutPage.css");
+			Requirements::css($this->ThemeDir()."/css/ContactPage.css");
+			Requirements::css($this->ThemeDir()."/css/FAQ.css");
+			Requirements::css($this->ThemeDir()."/css/HomePage.css");
 
 			Requirements::Javascript($this->ThemeDir()."/js/jquery.js");
 
