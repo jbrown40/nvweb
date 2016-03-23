@@ -16,31 +16,14 @@
             <div class="header-content-inner">
                 <h1 style="padding-top: 100px;">$Title</h1>
                 $Content
-                <form class="form">
-        
-                    <p class="name">
-                        <input type="text" name="name" id="name" placeholder="John Doe" />
-                        <label for="name">Name</label>
-                    </p>
-        
-                    <p class="email">
-                        <input type="text" name="email" id="email" placeholder="mail@example.com" />
-                        <label for="email">Email</label>
-                    </p>
-        
-                    <p class="web">
-                        <input type="text" name="web" id="web" placeholder="www.example.com" />
-                        <label for="web">Website</label>
-                    </p>        
-    
-                    <p class="text">
-                        <textarea name="text" placeholder="Write something to us" /></textarea>
-                    </p>
-        
-                    <p class="submit">
-                        <input type="submit" value="Send" />
-                    </p>
-                </form>
+                    <form action="MAILTO:notevoteapp@gmail.com" method="POST" enctype="multipart/form-data">
+                        <input name="action" value="submit" type="hidden"> Your name:<br>
+                        <input name="name" size="30" type="text"><br> Your email:<br>
+                        <input name="email" size="30" type="text"><br> Your message:<br>
+                        <textarea name="message" rows="7" cols="30">
+                        </textarea><br>
+                        <button style="color: black" type="submit">Submit Feedback</button>
+                    </form>
             </div>
         </div>
     </header>
