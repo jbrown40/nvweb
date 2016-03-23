@@ -14,23 +14,33 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>$Title</h1>
+                <h1 style="padding-top: 100px;">$Title</h1>
                 $Content
-	               <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-    <div class="row">
-        <label for="name">Your name:</label><br />
-        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-    </div>
-    <div class="row">
-        <label for="email">Your email:</label><br />
-        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-    </div>
-    <div class="row">
-        <label for="message">Your message:</label><br />
-        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-    </div>
-    <input id="submit_button" type="submit" style="color: black;" value="Send email" />
-</form>                     
+                <form class="form">
+        
+                    <p class="name">
+                        <input type="text" name="name" id="name" placeholder="John Doe" />
+                        <label for="name">Name</label>
+                    </p>
+        
+                    <p class="email">
+                        <input type="text" name="email" id="email" placeholder="mail@example.com" />
+                        <label for="email">Email</label>
+                    </p>
+        
+                    <p class="web">
+                        <input type="text" name="web" id="web" placeholder="www.example.com" />
+                        <label for="web">Website</label>
+                    </p>        
+    
+                    <p class="text">
+                        <textarea name="text" placeholder="Write something to us" /></textarea>
+                    </p>
+        
+                    <p class="submit">
+                        <input type="submit" value="Send" />
+                    </p>
+                </form>
             </div>
         </div>
     </header>

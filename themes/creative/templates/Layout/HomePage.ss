@@ -1,5 +1,5 @@
   <!-- Page Content -->
-    <header>
+    <header id="homepage-head">
         <div class="header-content">
             <div class="header-content-inner">
                 <h1>$Title</h1>
@@ -21,7 +21,7 @@
                     <p>$InformationOne</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="$ThemeDir/img/mockup/NoteVote5-05_iphone6_gold_side1.png" alt="">
+                    <img class="img-responsive" src="$ThemeDir/img/mockup/IMG_7109_iphone6plus_spacegrey_side2.png" alt="">
                 </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                     <p>$InformationTwo</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="$ThemeDir/img/mockup/NoteVote8-08_iphone6plus_spacegrey_portrait.png" alt="">
+                    <img class="img-responsive" src="$ThemeDir/img/mockup/IMG_7110_iphone6plus_spacegrey_side1.png" alt="">
                 </div>
             </div>
 
@@ -66,7 +66,7 @@
                     <p>$InformationThree</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="$ThemeDir/img/mockup/NoteVote5-05_iphone6_gold_side2.png" alt="">
+                    <img class="img-responsive" src="$ThemeDir/img/mockup/IMG_7113_iphone6plus_spacegrey_portrait.png" alt="">
                 </div>
             </div>
 

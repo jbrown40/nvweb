@@ -209,19 +209,20 @@ aside {
     }
 }
 
-header {
+header{
     position: relative;
     width: 100%;
     min-height: auto;
     text-align: center;
     color: #f5f7f9;
-    background-image: url(../img/nvbackground.jpg);
+    background-image: url(../img/coverimage.jpg);
     opacity: 0.8;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    
 }
 
 header .header-content {
@@ -717,6 +718,22 @@ p.copyright {
     height: 29px;
 }
 
-.img-circle {
+.wrapper{
+    max-width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 20px;
+    font-size: 2;
+    /*margin: 0 auto;*/
+    position: relative;
+}
+
+.wrapper .li{
+    display: inline-block;
+}
+
+.wrapper img.icon{
     border-radius: 50%;
+    border: solid 4px #fff;
 }

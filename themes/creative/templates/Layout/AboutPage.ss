@@ -1,23 +1,25 @@
  <header>
-        <div class="header-content">
+        <div class="header-content" style="padding-bottom: 50px;">
             <div class="header-content-inner">
-                <h1>$Title</h1>
+                <h1 style="padding-top: 100px;">$Title</h1>
                 $Content
                 $Form
             </div>
             
             <div style="width: 200%;">
-                
-                <% loop $Profiles %>
-                    <div style="width: 50%;">
-                        <!--put image in div and set background to image-->
-                        <div>$Name</div>
-                        <div>$Title</div>
-                        <div>$Content</div>
-                    </div>
-                <% end_loop %>
-                
-                    <br style="clear: left;" />
+
+                <ul class="wrapper">
+                    <% loop $Profiles %>
+                    <li>
+                        <div style="width: 50%;">
+                            <img class="icon" src="$ThemeDir/img/logo2.jpg">
+                            <h3>$Name</h3>
+                            <p>$Title</p>
+                            <p>$Content</p>
+                        </div>
+                    </li>
+                    <% end_loop %>
+                </ul>
             </div>
         </div>
 </header>
