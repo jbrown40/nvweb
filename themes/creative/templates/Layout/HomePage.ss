@@ -2,7 +2,7 @@
     <header id="homepage-head">
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>$Title</h1>
+                <h1>$Title</h1> <!--add alpha (or blur) behind txt and title-->
                 $Content
                 $Form
             </div>
@@ -17,10 +17,10 @@
                 <div class="col-lg-5 col-sm-6">
                     <!--<hr class="section-heading-spacer">-->
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">$HeaderOne</h2>
+                    <h2 class="section-heading">$HeaderOne</h2> <!--justify align text, centered with the title-->
                     <p>$InformationOne</p>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6"> <!--titles bold/larger and align top with top edge of image-->
                     <img class="img-responsive" src="$ThemeDir/img/mockup/IMG_7109_iphone6plus_spacegrey_side2.png" alt="">
                 </div>
                 </div>

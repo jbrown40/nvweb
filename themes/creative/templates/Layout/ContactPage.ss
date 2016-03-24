@@ -11,7 +11,7 @@
 <body id="page-top">
 
 
-    <header>
+    <div class="header">
         <div class="header-content">
             <div class="header-content-inner">
                 <h1 style="padding-top: 100px;">$Title</h1>
@@ -22,11 +22,11 @@
                         <input name="email" size="30" type="text"><br> Your message:<br>
                         <textarea name="message" rows="7" cols="30">
                         </textarea><br>
-                        <button style="color: black" type="submit">Submit Feedback</button>
+                        <button style="color: black; background-color: white;" type="submit">Submit Feedback</button>
                     </form>
             </div>
         </div>
-    </header>
+    </div>
 
     <!--<a  name="contact"></a>
     <div class="banner">
