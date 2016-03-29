@@ -75,7 +75,11 @@ button {
         font-size: 18px;
     }
 }
+input{
+    border: 2px solid black;
+}
 
 textarea{
     padding-bottom: 5px;
+    border: 2px solid black;
 }

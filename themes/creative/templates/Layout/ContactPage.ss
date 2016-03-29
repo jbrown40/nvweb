@@ -14,7 +14,7 @@
                         <input name="email" size="30" type="text"><br> Your message:<br>
                         <textarea name="message" rows="7" cols="30">
                         </textarea><br>
-                        <buttons type="submit">Submit Feedback</button>
+                        <button type="submit">Submit Feedback</button>
                     </form>
             </div>
         </div>
