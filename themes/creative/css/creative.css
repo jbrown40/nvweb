@@ -215,7 +215,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #f5f7f9;
-    background-image: url(../img/Website_Background.png);
+    background-image: url(../img/nvbackground2.png);
     opacity: 0.8;
     background-position: center;
     -webkit-background-size: cover;
@@ -237,7 +237,7 @@ header .header-content .header-content-inner h1 {
     text-transform: uppercase;
     font-weight: 700;
     color: #F4F4F4;
-    text-shadow: 1px 1px #a3adb8;
+    /*text-shadow: 1px 1px #a3adb8;*/
 }
 
 header .header-content .header-content-inner hr {
@@ -249,7 +249,7 @@ header .header-content .header-content-inner p {
     font-size: 16px;
     font-weight: 300;
     color: #F4F4F4;
-    text-shadow: 1px 1px #a3adb8;
+    /*text-shadow: 1px 1px #a3adb8;*/
 }
 
 @media (min-width: 768px) {

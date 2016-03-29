@@ -1,12 +1,4 @@
-<!--<header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>$Title</h1>
-                $Content
-                $Form
-            </div>
-        </div>
-    </header>-->
+
 
 <body id="page-top">
 
@@ -22,29 +14,11 @@
                         <input name="email" size="30" type="text"><br> Your message:<br>
                         <textarea name="message" rows="7" cols="30">
                         </textarea><br>
-                        <button style="color: black; background-color: white;" type="submit">Submit Feedback</button>
+                        <buttons type="submit">Submit Feedback</button>
                     </form>
             </div>
         </div>
     </div>
-
-    <!--<a  name="contact"></a>
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect to NoteVote:</h2>
-                </div>
-                
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    <!--</div>
-    <!-- /.banner -->
 
 
     

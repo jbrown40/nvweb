@@ -2,7 +2,7 @@
     <header id="homepage-head">
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>$Title</h1> <!--add alpha (or blur) behind txt and title-->
+                <h1 style="color: #8FD028">$Title</h1> <!--add alpha (or blur) behind txt and title-->
                 $Content
                 $Form
             </div>
@@ -66,7 +66,7 @@
                     <p>$InformationThree</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="$ThemeDir/img/mockup/IMG_7113_iphone6plus_spacegrey_portrait.png" alt="">
+                    <img class="img-responsive" src="$ThemeDir/img/mockup/votescreen_iphone6_spacegrey_portrait.png" alt="">
                 </div>
             </div>
 
