@@ -18,7 +18,7 @@
                     <!--<hr class="section-heading-spacer">-->
                     <div class="clearfix"></div>
                     <h2 class="section-heading">$HeaderOne</h2> <!--justify align text, centered with the title-->
-                    <p>$InformationOne</p>
+                    <p class="info-section">$InformationOne</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6"> <!--titles bold/larger and align top with top edge of image-->
                     <img class="img-responsive" src="$ThemeDir/img/mockup/IMG_7109_iphone6plus_spacegrey_side2.png" alt="">
